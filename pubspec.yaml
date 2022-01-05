@@ -80,8 +80,7 @@ flutter:
         - asset: fonts/Pacifico-Regular.ttf
     - family: SourceSansPro
       fonts:
-        - asset: fonts/SourceSansPro-Bold.ttf
-        - asset: fonts/SourceSansPro-Light.ttf
+        - asset: fonts/SourceSansPro-Regular.ttf
   #   - family: Schyler
   #     fonts:
   #       - asset: fonts/Schyler-Regular.ttf
