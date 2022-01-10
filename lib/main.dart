@@ -17,7 +17,7 @@ void main() {
                   radius: 60,
                 ),
                 Text(
-                  'Siegfried DALLERY',
+                  'Siegfried D',
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     fontFamily: 'Pacifico',
@@ -25,6 +25,13 @@ void main() {
                     fontWeight: FontWeight.bold,
                     fontSize: 28,
                   ),
+                ),
+                Divider(
+                  height: 35,
+                  thickness: 2,
+                  indent: 80,
+                  endIndent: 80,
+                  color: Colors.white,
                 ),
                 Container(
                   decoration: BoxDecoration(
@@ -34,10 +41,18 @@ void main() {
                       )),
                   //color: Colors.white,
                   width: double.infinity,
-                  margin: EdgeInsets.fromLTRB(25, 20, 25, 0),
+                  margin: EdgeInsets.fromLTRB(25, 10, 25, 0),
                   padding: EdgeInsets.symmetric(vertical: 15),
-                  child: Column(
+                  child: Row(
                     children: [
+                      Container(
+                        padding: EdgeInsets.symmetric(horizontal: 16),
+                        child: Icon(
+                          Icons.phone_sharp,
+                          color: Colors.teal.shade100,
+                          size: 30,
+                        ),
+                      ),
                       Text(
                         '0692 ** ** **',
                         style: TextStyle(
@@ -60,8 +75,16 @@ void main() {
                   width: double.infinity,
                   margin: EdgeInsets.fromLTRB(25, 20, 25, 0),
                   padding: EdgeInsets.symmetric(vertical: 15),
-                  child: Column(
+                  child: Row(
                     children: [
+                      Container(
+                        padding: EdgeInsets.symmetric(horizontal: 16),
+                        child: Icon(
+                          Icons.email_rounded,
+                          color: Colors.teal.shade100,
+                          size: 30,
+                        ),
+                      ),
                       Text(
                         'test@gmail.com',
                         style: TextStyle(
